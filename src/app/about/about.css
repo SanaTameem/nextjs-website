@@ -1,0 +1,24 @@
+.about-page{
+  margin-top: 200px;
+}
+
+.about-paragraph{
+  border-left: 3px solid var(--bs-secondary);
+  
+}
+
+.list{
+  list-style: square;
+}
+
+@media screen and (max-width: 768px){
+  .about-page{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .about-page{
+    margin-top: 300px;
+  }
+}  
