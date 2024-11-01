@@ -1,0 +1,43 @@
+.services-row{
+  gap: 16px;
+  flex-wrap: nowrap;
+}
+
+.services-image {
+  background-image: url('http://caa.af/wp-content/uploads/2016/05/placeholder.gif?id=1270');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+.card-title{
+  height: 18%;
+}
+
+.card-text{
+  color: var(--bs-gray);
+  height: 80%;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.right-icon{
+  width: 30px;
+}
+.quote-btn {
+  width: fit-content;
+  height: fit-content;
+}
+
+.services-image-text{
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .services-row{
+    flex-wrap: wrap;
+  }
+
+  .services-image{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+.contact-icon {
+  width: 30px;
+}
+
+.contact-value {
+  font-size: 14px;
+}
+
+.contact-icons-div {
+  gap: 15px;
+}
+
+.contact-form {
+  gap: 25px;
+}
+.contact-form-row {
+  gap: 20px;
+}
+
+.contact-input{
+  background-color: lightgray;
+}
+
+.quickContact-info{
+  color: var(--gray);
+}

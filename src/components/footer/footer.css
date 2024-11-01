@@ -1,0 +1,27 @@
+.footer-icon{
+  width: 35px;
+  height: 35px;
+}
+
+.footer-icon-div svg{
+  width: 20%;
+}
+
+.footer-icon-div p{
+  width: 80%;
+}
+.footer-row{
+  gap: 30px;
+}
+
+.footer{
+  background-color: var(--darkGreen);
+}
+
+@media screen and (max-width: 768px){
+  .footer-row{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

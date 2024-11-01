@@ -1,0 +1,46 @@
+.navbar {
+  height: 85px;
+  transition: all 0.5s ease-in-out;
+  top: 18%;
+  width: 85%;
+  z-index: 10;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.header {
+  height: 25%;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo-name{
+  font-size: 35px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: none !important;
+  }
+
+  .navbar {
+    width: 100%;
+    top: 0;
+  }
+
+  .collapse{
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    z-index: 2;
+    background-color: var(--bs-secondary);
+  }
+}

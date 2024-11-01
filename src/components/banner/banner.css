@@ -1,0 +1,50 @@
+::marker {
+  content: "";
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  height: fit-content;
+}
+
+.banner-img {
+  height: 100%;
+  animation: zoom 40s linear infinite;
+}
+@keyframes zoom {
+  50% {
+    transform: scale(2.7);
+  }
+}
+.carousel {
+  margin-top: 10%;
+}
+
+.control-btns {
+  padding: 15px;
+  border: 2px solid #fff;
+}
+
+#carouselExampleIndicators {
+  width: 100%;
+  height: 85vh;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-img {
+    height: 100%;
+  }
+
+  #carouselExampleIndicators {
+    width: 100%;
+    height: 40vh;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner-img {
+    height: 50vh;
+  }
+}
