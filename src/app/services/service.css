@@ -1,0 +1,17 @@
+.services{
+  margin-top: 200px;
+}
+
+.service-card {
+  border: none;
+}
+
+.right-icon{
+  width: 30px;
+}
+
+@media screen and (max-width: 768px){
+  .services{
+    margin-top: 100px;
+  }
+}
