@@ -1,0 +1,22 @@
+.career-paragraph{
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.career-title-div{
+  height: 200px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 768px){
+  .career-title-div{
+    margin-top: 100;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .career-title-div{
+    margin-top: 320px;
+  }
+}  
